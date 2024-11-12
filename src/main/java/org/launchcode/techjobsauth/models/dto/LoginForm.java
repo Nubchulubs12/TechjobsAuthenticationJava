@@ -2,11 +2,11 @@ package org.launchcode.techjobsauth.models.dto;
 
 public class LoginForm {
 
-    public String username;
+    private String username;
 
-    public String password;
+    private String password;
 
-    public String getUsername() {
+    public  String getUsername() {
         return username;
     }
 
@@ -14,7 +14,7 @@ public class LoginForm {
         this.username = username;
     }
 
-    public String getPassword() {
+    public  String getPassword() {
         return password;
     }
 
